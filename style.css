@@ -57,6 +57,12 @@ header {
   animation: pulse; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
 }
+.inf-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -94,6 +100,8 @@ header {
 h1 {
   font-family: 'Cinzel', serif;
   color: var(--btn-color);
+  width: 80%;
+  margin-left: -rem;
 }
 #share-p {
   display: flex;
